@@ -1,0 +1,79 @@
+
+.feed-container, .post-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+  gap: 1.5rem;
+}
+
+
+.card-item {
+  background-color: #fff;
+  border: 1px solid #e0e0e0; 
+  border-radius: 8px;
+  padding: 1.2rem;
+  transition: transform 0.2s;
+}
+
+.card-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card-title {
+  color: #333;
+  margin-top: 0;
+}
+
+
+.read-more-btn, .btn-back {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-back {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+
+.filter-area {
+  margin-bottom: 2rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.custom-select {
+  padding: 0.5rem;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.author-box {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #eef2f5; 
+  border-left: 4px solid #007bff; 
+  border-radius: 4px;
+}
+
+.author-details {
+  list-style: none;
+  padding: 0;
+}
+
+.author-details li {
+  margin-bottom: 0.5rem;
+}
